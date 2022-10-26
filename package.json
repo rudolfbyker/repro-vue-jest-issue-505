@@ -1,0 +1,43 @@
+{
+  "name": "repro1",
+  "version": "0.1.0",
+  "description": "Bug reproduction",
+  "private": true,
+  "author": {
+    "name": "Rudolf W Byker",
+    "email": "rudolfbyker@gmail.com"
+  },
+  "scripts": {
+    "test": "vue-cli-service test:unit --config='./jest.config.js'"
+  },
+  "dependencies": {
+    "core-js": "^3",
+    "vue": "^2.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@types/jest": "^27",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-typescript": "~5.0.8",
+    "@vue/cli-plugin-unit-jest": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/test-utils": "^1.3",
+    "@vue/vue2-jest": "^27",
+    "babel-core": "bridge",
+    "babel-jest": "^27",
+    "jest": "^27.1.0",
+    "jest-each": "^28.1.0",
+    "jest-environment-jsdom-fifteen": "^1.0.2",
+    "jest-serializer-vue": "^2.0.2",
+    "node-gyp": "^9.0.0",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "semver": "^7.3.8",
+    "ts-jest": "^27.0.4",
+    "tslib": "^2.4.0",
+    "typescript": "~4.5.5",
+    "vue-template-compiler": "^2.7.13",
+    "webpack": "^5"
+  },
+  "packageManager": "yarn@3.2.1"
+}
